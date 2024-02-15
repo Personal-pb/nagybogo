@@ -1,0 +1,103 @@
+body {
+    background-color: #326388;
+    
+}
+
+header{
+    padding: 1rem;
+    text-align: center;
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    color: #13013c;
+}
+.col-lg-4{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.szoveg1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kep3{
+    float:right
+}
+p{
+    color: #13013c;
+    font-size: 15px;
+}
+.kepp{
+    max-width: 700px;
+    float:right
+}
+.kepp2{
+    max-width: 700px;
+    float:left
+}
+h2 {
+    text-align: center;
+}
+h2 {
+    color: #00b17c;
+}
+h4 {
+    color: #13013c;
+}
+.forrassz{
+    color: #ffffff;
+}
+a{
+    color:  #13013c;
+}
+.button{
+    float: left;
+}
+.navbar{
+    background-color: #13013c;
+    border: 2px solid #00b17c;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    color: white;
+
+}
+.elso-kep {
+    scale: 70%;
+    border: 2px solid #00b17c;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #13013c;
+}
+.video-- {
+    margin: 2rem 2rem 2rem 1rem;
+}
+@media screen and (min-width: 770px) {
+    .media-tartalom {
+        border: 4px solid #00b17c;
+        width: 580px;
+        height: 330px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 769px)  {
+    .media-tartalom {
+        border: 4px solid #00b17c;
+        scale: 140%;
+        display: block;
+        margin: 4rem auto 4rem auto;
+        
+    }
+}
+.shadow-box {
+    animation: Box-shadow-animation 4s infinite;
+   
+}
+@keyframes Box-shadow-animation {
+    50% {box-shadow: 0 0.3rem 2.2rem 0 #326388}
+}
+.active {
+    color: white;
+}
