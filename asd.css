@@ -1,6 +1,7 @@
 body {
-    background-color: #326388;
-    
+    background-color: #121212;
+    font-family: 'ROBOTO', serif;
+   
 }
 
 header{
@@ -11,7 +12,7 @@ header{
 h1{
     color: rgb(255, 255, 255);
     font-style: italic;
-    color: #13013c;
+
 }
 .col-lg-4{
     background-color: rgb(255, 255, 255);
@@ -25,7 +26,7 @@ h1{
     float:right
 }
 p{
-    color: #13013c;
+    color: #fff;
     font-size: 15px;
 }
 .kepp{
@@ -43,28 +44,23 @@ h2 {
     color: #00b17c;
 }
 h4 {
-    color: #13013c;
+    color: #fff;
 }
 .forrassz{
     color: #ffffff;
 }
 a{
-    color:  #13013c;
+    color:  #fff;
 }
 .button{
     float: left;
 }
-.navbar{
-    background-color: #13013c;
-    border: 2px solid #00b17c;
-    border-radius: 5px;
-    margin-bottom: 2rem;
-    color: white;
-
+.navbar {
+    margin-bottom: 2.1rem;
 }
 .elso-kep {
     scale: 70%;
-    border: 2px solid #00b17c;
+    
     border-radius: 5px;
     padding: 5px;
     background-color: #13013c;
@@ -74,7 +70,7 @@ a{
 }
 @media screen and (min-width: 770px) {
     .media-tartalom {
-        border: 4px solid #00b17c;
+        border: 4px solid #05cdf5;
         width: 580px;
         height: 330px;
         display: block;
@@ -84,8 +80,7 @@ a{
 }
 @media screen and (max-width: 769px)  {
     .media-tartalom {
-        border: 4px solid #00b17c;
-        scale: 140%;
+        border: 4px solid #05cdf5;
         display: block;
         margin: 4rem auto 4rem auto;
         
@@ -96,8 +91,12 @@ a{
    
 }
 @keyframes Box-shadow-animation {
-    50% {box-shadow: 0 0.3rem 2.2rem 0 #326388}
+    50% {box-shadow: 0 0.3rem 2.2rem 0 #05cdf5}
 }
+
 .active {
+    color: white;
+}
+.active2 {
     color: white;
 }
